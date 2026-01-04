@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/{id}")
 def root(id: int):
-    return {"message": "Hello, FastAPI with ID {id}"}
+    return {"message": f"Hello, FastAPI with ID {id}"}
